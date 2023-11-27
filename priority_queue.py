@@ -1,5 +1,7 @@
 import math
-
+"""" 
+https://medium.com/@verdi/binary-heap-basics-40a0f3f41c8f
+"""
 
 def get_parent(index):
     if index == 0:
@@ -89,4 +91,3 @@ def from_list(lst):
     for e in lst:
         insert(pq, e)
 
-    
